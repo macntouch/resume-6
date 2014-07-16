@@ -9,5 +9,9 @@ venv/*
 bin
 bin/*
 
+# external fragments
+fragments
+fragments/*
+
 # vim swap files
 *.swp

@@ -40,15 +40,6 @@ def main():
     data = json.load(jdata)
     jdata.close()
 
-    # add links to github and email
-    #gh = data['biodata']['github']
-    #ghl = gh.split('@')
-    #gh = '[' + gh + '](https://github.com/' + ghl[0] + ')'
-    #data['biodata']['github'] = gh
-
-    #email = data['biodata']['email']
-    # data['biodata']['email'] = '<' + email + '>'
-
     # sort and chunk jargon section
     jl = data['biodata']['jargon']
     jl.sort()
