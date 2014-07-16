@@ -1,0 +1,152 @@
+{
+    "firstname": "Justin",
+    "middleinitial": "P",
+    "lastname": "Penka",
+    "biodata": {
+	"address": "PO Box 684",
+	"city": "Lawrence",
+	"state": "KS",
+	"zipcode": "66044",
+        "email": "jpenka@gmail.com",
+        "phone": "7856917834",
+        "github": "h0st1le@github",
+	"about": {
+	    "sections": [
+                "Accomplished senior software developer with experience leading teams, building systems, application design, coding, graphics, interfaces, and system automation. Looking to work with others that embrace challenges, relish knowledge, admire simple solutions, and believe that maybe, just maybe, that's enough to impact this world."
+	    ]
+	},
+        "experience": {
+            "projects": [
+	        {
+                    "name": "Phone App",
+                    "tagline": "Mobile vouching system devised to enhance the discovery of quality connections between known associates",
+                    "points": [
+                        "Constructed Javascript based app for deployment on iOS, Android, and Web, using Backbone, Bower, Brunch, Flask and Postgres.",
+		    	"Applied complex database relationships using SQLAlchemy accounting for self-referential models and many-to-many relationships using multiple joins.",
+			"Coordinated usage of services Heroku and Trigger.io minimizing required infrastructure.",
+			"Developed and open sourced 'xtify-python', python library for creating and sending mobile push notifications using Xtify web service."
+                    ]
+                },
+                {
+                    "name": "Go2It",
+                    "tagline": "Automatic vehicle location (AVL) mapping software for both Dispatch and Responder Enhanced 9-1-1 services",
+                    "points": [
+                        "Implemented new modular mapping framework, leveraging open source geographic information system library, Dot Spatial.",
+		    	"Extended system to accept location data inputs from various sources, including GPS, PSAP trunk lines, and cellular networks such as Verizon's AVL API.",
+			"Enabled advanced search tools for querying across multiple data layers, and multiple data formats using Lucene.",
+			"Submitted various error reports and code patches for core library fixes to Dot Spatial community."
+                    ]
+                },
+                {
+                    "name": "SDRHorizons",
+                    "tagline": "Online mapping framework designed for centralized deployment of multiple instances",
+                    "points": [
+                        "Executed development of new versions of several tools in existing desktop applications for use within adaptive Software as a service (SaaS) application.",
+                        "Coded and open sourced 'papyrus-ogcserver', python library for embedding Mapnik OGCServer directly inside of Pyramid applications.",
+			"Conceived and constructed front-end framework using Backbone.js to asynchronously load required tools, templates and modules as needed on site-by-site basis."
+                    ]
+                },
+                {
+                    "name": "AddressIt",
+                    "tagline": "ArcGIS Desktop extension, facilitating creation and maintenance of addressing data for Enhanced 9-1-1 services",
+                    "points": [
+                        "Reimplemented codebase of flagship product and unified multiple versions of legacy applications into unified framework.",
+                        "Created shared libraries for core of framework, eliminating code variation between products, and simplifying maintenance.",
+			"Designed framework to be pluggable allowing deployment of multiple versions of applications using configuration files, version control, and automated build system.",
+			"Coordinated team tasked with building and testing new modules for framework integration and documentation."
+                    ]
+                },
+                {
+                    "name": "ConvertIt",
+                    "tagline": "Geographic data format utility for handling data model conversion, editing, and creation",
+                    "points": [
+                        "Automated tedious and error-prone conversion tasks, handling a variety data formats.",
+                        "Built templating system for saving data models and conversion mappings for reuse and distribution.",
+			"Incorporated Python scripting extensibility for managing advanced conversions requiring more complex analysis."
+                    ]
+                },
+                {
+                    "name": "MSAGToolkit",
+                    "tagline": "Toolkit for preparing, creating, comparing, and converting Master Street Address Guide (MSAG) files",
+                    "points": [
+                        "Developed extensive spatial analysis tool processes for locating deficiencies within road centerline files intended for MSAG creation.",
+                        "Influence on team direction developing systems for converting and comparing MSAG files across various file formats.",
+			"Devised various methods of diffing MSAG files for generation of add, remove, and update records required for telco exchanges."
+                    ]
+                }
+            ]
+        },
+        "history": {
+	    "positions": [
+	    	{
+		    "title": "Lead Developer",
+	            "company": "Spatial Data Research",
+	            "city": "Lawrence",
+		    "state": "KS",
+	            "start_date": "June 2012",
+		    "end_date": "Current",
+                    "points": [
+		        "Lead role and manager of development teams for new products from conceptualization and development to release and updates.",
+		        "Speculate and manage cost and timeline of products from initial stages to complete project deployment.",
+			"Led company expansion beyond traditional desktop based GIS applications, advocate of open source solutions around which a community of resources may be built."
+	            ]
+		},
+	    	{
+		    "title": "Developer",
+	            "company": "Spatial Data Research",
+	            "city": "Lawrence",
+		    "state": "KS",
+	            "start_date": "May 2005",
+		    "end_date": "June 2012",
+                    "points": [
+		        "Restructured all company code into modular framework, introduced version control, automated build systems, project management, and bug tracking systems.",
+		        "Expanded overall suite of company's toolset, facilitating expansion beyond traditional Enhanced 9-1-1 services."
+	            ]
+		},
+	    	{
+		    "title": "Intern",
+	            "company": "Spatial Data Research",
+	            "city": "Lawrence",
+		    "state": "KS",
+	            "start_date": "October 2004",
+		    "end_date": "May 2005",
+                    "points": [
+		        "Developed various internal tools for handling cell tower sector coverage data, later integrated into full-fledged products."
+	            ]
+		}
+	    ]
+        },
+        "education": {
+            "schools": [
+                {
+                    "degree": "Master of Arts",
+                    "major": "Geography",
+		    "emphasis": "Geospatial Technology",
+                    "institution": "University of Kansas",
+                    "start_year": "2003",
+		    "grad_year": "2010",
+		    "city": "Lawrence",
+		    "state": "KS"
+                },
+                {
+                    "degree": "Bachelor of Arts",
+                    "major": "Industrial Design",
+		    "emphasis": "User Interface Design",
+                    "institution": "University of Kansas",
+                    "start_year": "1998",
+                    "grad_year": "2003",
+		    "city": "Lawrence",
+		    "state": "KS"
+                }
+            ]
+        },
+        "jargon": [
+            "html5", "css3", "javascript", "jquery", "python", "csharp", "arcobjects",
+            "mapnik", "openlayers", "sqlalchemy", "git", "postgres", "postgis", "flask",
+            "pyramid", "django", "mysql", "geographic", "java", "spatial", "saas", "dotspatial",
+            "brunch", "bower", "backbone", "heroku", "lucene", "shell", "solr", "capistrano",
+            "chef", "leaflet", "rackspace", "ec3",  "linux", "opensource", "nginx", "wsgi",
+            "gdal", "ogr", "amd", "node", "esri", "rest", "api"
+        ]
+    }
+}

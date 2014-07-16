@@ -1,0 +1,64 @@
+{{firstname}}{{#middleinitial}} {{middleinitial}}.{{/middleinitial}} {{lastname}}
+===============
+
+{{#biodata}}
+> {{#address}}{{address}}{{/address}}  
+> {{#city}}{{city}}, {{/city}}{{#state}}{{state}} {{/state}}{{#zipcode}}{{zipcode}}{{/zipcode}}
+
+    {{#email}}{{email}} | {{/email}}{{#phone}}{{phone}}{{/phone}}{{#github}} | {{github}}{{/github}}
+
+**.. about ..**  
+---------------
+{{#about}}
+{{#sections}}
+
+{{.}}
+{{/sections}}
+{{/about}}
+
+**.. experience ..**  
+--------------------
+{{#experience}}
+{{#projects}}
+
+* __{{name}}:__ {{tagline}}:
+{{#points}}
+
+    * {{.}}
+{{/points}}
+{{/projects}}
+{{/experience}}
+
+**.. history ..**  
+-----------------
+{{#history}}
+{{#positions}}
+
+* __{{title}}__ {{#company}}| {{company}}{{/company}}{{#city}}, {{city}}{{/city}}{{#state}}, {{state}}{{/state}}
+
+    > ##### {{#start_date}}{{start_date}}{{/start_date}}{{#end_date}} - {{end_date}}{{/end_date}}
+{{#points}}
+
+    * {{.}}
+{{/points}}
+{{/positions}}
+{{/history}}
+
+**.. education ..**  
+-------------------
+{{#education}}
+{{#schools}}
+
+* __{{#start_year}}{{start_year}} - {{/start_year}}{{grad_year}}__ | {{institution}}{{#city}}, {{city}}{{/city}}{{#state}}, {{state}}{{/state}}
+
+    * {{degree}} {{#major}}- {{major}}{{/major}}{{#emphasis}}, *emphasis: {{emphasis}}*{{/emphasis}}
+{{/schools}}
+{{/education}}
+
+**.. jargon ..**  
+----------------
+
+    {{#jargon}}
+    {{.}}
+    {{/jargon}}
+{{/biodata}}

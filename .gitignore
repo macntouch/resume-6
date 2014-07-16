@@ -1,0 +1,13 @@
+*.pyc
+*.pyo
+venv
+venv/*
+*.egg
+*.egg-info
+
+# output directory
+bin
+bin/*
+
+# vim swap files
+*.swp

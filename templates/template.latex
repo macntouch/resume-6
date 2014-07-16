@@ -1,0 +1,168 @@
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(papersize)$$papersize$,$endif$]{$documentclass$}
+
+% <---- lengths -------------------------------------------------------------->
+
+% save parindent to a new length -> origparindent
+\newlength{\orgparindent}
+\setlength{\orgparindent}{\parindent}
+
+% disable paragraph indentation
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5\baselineskip plus2pt minus2pt}
+\setlength{\emergencystretch}{3em}      % prevent overfull lines
+
+% <---- packages ------------------------------------------------------------->
+
+% geometry package for refining page margins
+\usepackage[top=0.67in, bottom=0.67in, left=0.67in, right=0.67in]{geometry}
+
+% font encoding package
+\usepackage[T1]{fontenc}
+
+% fontspec package for custom fonts
+\usepackage{fontspec}
+
+% xelatex extras and unicode packages
+\usepackage{xltxtra,xunicode}
+
+% xcolor package
+\usepackage{xcolor}
+
+% tikz package for custom code blocks and custom quotes
+\usepackage{tikz}
+
+% verbatim package for custom code blocks and custom quotes
+\usepackage{verbatim}
+
+% title sectioning package with compact option
+\usepackage[compact]{titlesec}
+
+% mdframed environment for custom code blocks and custom quotes
+% (set common options for all mdframed based environments on load)
+\usepackage[framemethod=tikz,
+    innerleftmargin=0.5\orgparindent,
+    innerrightmargin=0.5\orgparindent,
+    skipabove=0.4\baselineskip,
+    skipbelow=0.4\baselineskip,
+    innertopmargin=0.4\baselineskip,
+    innerbottommargin=0.4\baselineskip]{mdframed}
+
+% <---- font settings -------------------------------------------------------->
+
+% set document default font to source sans pro and variants
+\setmainfont[Mapping=tex-text,
+    ItalicFont=Source Sans Pro Light Italic,
+    BoldFont=Source Sans Pro,
+    BoldItalicFont=Source Sans Pro Italic]{Source Sans Pro Light}
+
+% set sans serif font to source sans pro and variants
+\setsansfont[Mapping=tex-text,
+    ItalicFont=Source Sans Pro Light Italic,
+    BoldFont=Source Sans Pro,
+    BoldItalicFont=Source Sans Pro Italic]{Source Sans Pro Light}
+
+% set monospace font to source code pro and variants
+\setmonofont[Mapping=tex-text,
+    ItalicFont=Source Code Pro ExtraLight,
+    BoldFont=Source Code Pro]{Source Code Pro Light}
+
+% <---- color definitions ---------------------------------------------------->
+
+\definecolor{mdquotelinecolor}{HTML}{DDDDDD}
+\definecolor{mdhlinecolor}{HTML}{DDDDDD}
+
+% <---- paragraph styling ---------------------------------------------------->
+
+% prevent widows and orphans
+\widowpenalty=10000
+\clubpenalty=10000
+
+% <---- new environments ----------------------------------------------------->
+
+% mdframed based code block environment
+\newmdenv[
+linewidth=0.5pt,
+rightline=false,
+leftline=false,
+linecolor=mdhlinecolor,
+settings={\setlength{\parindent}{0pt}}]{mdcodeblk}
+\BeforeBeginEnvironment{verbatim}{\begin{mdcodeblk}}
+\AfterEndEnvironment{verbatim}{\end{mdcodeblk}}
+
+% mdframed based quote environment
+\newmdenv[linewidth=3pt,
+leftmargin=2.6em,
+linecolor=mdquotelinecolor,
+topline=false,
+rightline=false,
+bottomline=false,
+settings={\setlength{\parindent}{0pt}}]{mdquote}
+\renewenvironment{quote}{\endgraf\mdquote}{\endmdquote}
+
+% <---- section styling ------------------------------------------------------>
+
+% fix paragraphs and subparagraphs
+\makeatletter
+    \renewcommand\paragraph{
+        \@startsection{paragraph}{4}{0mm}
+            {-0.35ex \@plus -1ex \@minus -0.2ex}
+            {0.0001pt \@plus .2ex}
+            {\normalfont\normalsize\bfseries}}
+    \renewcommand\subparagraph{
+        \@startsection{subparagraph}{5}{0mm}
+            {-0.35ex \@plus -1ex \@minus -0.2ex}
+            {0.0001pt \@plus .2ex}
+            {\normalfont\normalsize\bfseries}}
+\makeatother
+
+% fix verbatim environment
+\makeatletter
+    \def\@xobeysp{\mbox{}\space}
+    \def\verbatim@font{\small \ttfamily \raggedright}
+    \def\verbatim@processline{\the\verbatim@line\space}
+\makeatother
+
+% customize title sections
+\titleformat{\section}{\huge\bfseries}{\thesection}{1em}{}
+\titlespacing{\section}{0pt}{0pt}{1em}
+\titleformat{\subsection}{\Large\bfseries\MakeLowercase}{\thesubsection}{1em}{}
+
+% section numbersing
+$if(numbersections)$
+$else$
+\setcounter{secnumdepth}{0}
+$endif$
+
+% pandoc header-includes option
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+% set title, author and date
+$if(title)$
+\title{$title$}
+$endif$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+\date{$date$}
+
+% <---- document ------------------------------------------------------------->
+
+\begin{document}
+
+% remove page numbering
+\thispagestyle{empty}
+\pagestyle{empty}
+
+% pandoc include-before option
+$for(include-before)$
+$include-before$
+$endfor$
+
+$body$
+
+% pandoc include-after option
+$for(include-after)$
+$include-after$
+$endfor$
+
+\end{document}
