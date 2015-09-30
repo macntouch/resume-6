@@ -89,7 +89,8 @@
 		        "Lead role and manager of development teams for new products from conceptualization and development to release and updates.",
 		        "Speculate and manage cost and timeline of products from initial stages to complete project deployment.",
 			"Led company expansion beyond traditional desktop based GIS applications, advocate of open source solutions around which a community of resources may be built."
-	            ]
+	            ],
+                    "technologies": "python, git, shell, sqlite, javascript, openlayers, mapnik, django, tastypie, backbone, lucene, solr, capistrano, chef, postgis, sqlalchemy, pyparsing, ec2, tilecache, bootstrap, handlebars, csharp, dotspatial, wix"
 		},
 	    	{
 		    "title": "Developer",
@@ -101,7 +102,8 @@
                     "points": [
 		        "Restructured all company code into modular framework, introduced version control, automated build systems, project management, and bug tracking systems.",
 		        "Expanded overall suite of company's toolset, facilitating expansion beyond traditional Enhanced 9-1-1 services."
-	            ]
+	            ],
+                    "technologies": "arcobjects, csharp, msbuild, jenkins, redmine, wix, log4net, doxygen, nunit, fxcop, shell, git, mercurial, sqlite"
 		},
 	    	{
 		    "title": "Intern",
@@ -112,7 +114,8 @@
 		    "end_date": "May 2005",
                     "points": [
 		        "Developed various internal tools for handling cell tower sector coverage data, later integrated into full-fledged products."
-	            ]
+	            ],
+                    "technologies": "arcobjects, visualbasic6, vbscript, python"
 		}
 	    ]
         },
@@ -141,12 +144,13 @@
             ]
         },
         "jargon": [
-            "html5", "css3", "javascript", "jquery", "python", "csharp", "arcobjects",
-            "mapnik", "openlayers", "sqlalchemy", "git", "postgres", "postgis", "flask",
-            "pyramid", "django", "mysql", "geographic", "java", "spatial", "saas", "dotspatial",
-            "brunch", "bower", "backbone", "heroku", "lucene", "shell", "solr", "capistrano",
-            "chef", "leaflet", "rackspace", "ec3",  "linux", "opensource", "nginx", "wsgi",
-            "gdal", "ogr", "amd", "node", "esri", "rest", "api"
+            "amd", "api", "bower", "brunch", "esri", "flask", "gdal",
+            "heroku", "git", "leaflet", "linux", "mysql", "nginx", "node",
+            "ogr", "opensource", "postgresql", "sqlite", "pyramid", "cloudhosting", "restful", "saas",
+            "java", "spatial", "csharp", "python", "pyramid", "wsgi", "ruby", "arduino",
+            "reprap", "json", "jquery", "xml",  "rvm", "virtualenv", "tilestache", "apache",
+            "mbtiles", "mustache", "drone", "vim", "markdown", "css3", "html5",
+            "3dprinting", "javascript"
         ]
     }
 }

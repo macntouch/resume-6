@@ -73,7 +73,10 @@ Accomplished senior software developer with experience leading teams, building s
 
 * __Lead Developer__ | Spatial Data Research, Lawrence, KS
 
-    > ##### June 2012 - Current
+    > #### June 2012 - Current
+
+     _Key Technologies:_ python, git, shell, sqlite, javascript, openlayers, mapnik, django, tastypie, backbone, lucene, solr, capistrano, chef, postgis, sqlalchemy, pyparsing, ec2, tilecache, bootstrap, handlebars, csharp, dotspatial, wix 
+
 
     * Lead role and manager of development teams for new products from conceptualization and development to release and updates.
 
@@ -81,19 +84,28 @@ Accomplished senior software developer with experience leading teams, building s
 
     * Led company expansion beyond traditional desktop based GIS applications, advocate of open source solutions around which a community of resources may be built.
 
+
 * __Developer__ | Spatial Data Research, Lawrence, KS
 
     > ##### May 2005 - June 2012
+
+     _Key Technologies:_ arcobjects, csharp, msbuild, jenkins, redmine, wix, log4net, doxygen, nunit, fxcop, shell, git, mercurial, sqlite 
+
 
     * Restructured all company code into modular framework, introduced version control, automated build systems, project management, and bug tracking systems.
 
     * Expanded overall suite of company's toolset, facilitating expansion beyond traditional Enhanced 9-1-1 services.
 
+
 * __Intern__ | Spatial Data Research, Lawrence, KS
 
     > ##### October 2004 - May 2005
 
+     _Key Technologies:_ arcobjects, visualbasic6, vbscript, python 
+
+
     * Developed various internal tools for handling cell tower sector coverage data, later integrated into full-fledged products.
+
 
 **.. education ..**  
 -------------------
@@ -109,7 +121,7 @@ Accomplished senior software developer with experience leading teams, building s
 **.. jargon ..**  
 ----------------
 
-    #amd #api #arcobjects #backbone #bower #brunch #capistrano #chef #csharp #css3 #django #dotspatial
-    #ec3 #esri #flask #gdal #geographic #git #heroku #html5 #java #javascript #jquery #leaflet #linux
-    #lucene #mapnik #mysql #nginx #node #ogr #openlayers #opensource #postgis #postgres #pyramid
-    #python #rackspace #rest #saas #shell #solr #spatial #sqlalchemy #wsgi 
+    #3dprinting #amd #apache #api #arduino #bower #brunch #cloudhosting #csharp #css3 #drone #esri
+    #flask #gdal #git #heroku #html5 #java #javascript #jquery #json #leaflet #linux #markdown #mbtiles
+    #mustache #mysql #nginx #node #ogr #opensource #postgresql #pyramid #pyramid #python #reprap
+    #restful #ruby #rvm #saas #spatial #sqlite #tilestache #vim #virtualenv #wsgi #xml 

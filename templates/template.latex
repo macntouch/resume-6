@@ -14,7 +14,7 @@
 % <---- packages ------------------------------------------------------------->
 
 % geometry package for refining page margins
-\usepackage[top=0.67in, bottom=0.67in, left=0.67in, right=0.67in]{geometry}
+\usepackage[top=0.50in, bottom=0.50in, left=0.50in, right=0.50in]{geometry}
 
 % font encoding package
 \usepackage[T1]{fontenc}
@@ -63,8 +63,9 @@
 
 % set monospace font to source code pro and variants
 \setmonofont[Mapping=tex-text,
-    ItalicFont=Source Code Pro ExtraLight,
-    BoldFont=Source Code Pro]{Source Code Pro Light}
+    ItalicFont=Source Sans Pro Light Italic,
+    BoldFont=Source Sans Pro,
+    BoldItalicFont=Source Sans Pro Italic]{Source Sans Pro Light}
 
 % <---- color definitions ---------------------------------------------------->
 
@@ -127,7 +128,7 @@ settings={\setlength{\parindent}{0pt}}]{mdquote}
 \titlespacing{\section}{0pt}{0pt}{1em}
 \titleformat{\subsection}{\Large\bfseries\MakeLowercase}{\thesubsection}{1em}{}
 
-% section numbersing
+% section numbering
 $if(numbersections)$
 $else$
 \setcounter{secnumdepth}{0}

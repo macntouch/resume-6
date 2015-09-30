@@ -37,10 +37,14 @@
 * __{{title}}__ {{#company}}| {{company}}{{/company}}{{#city}}, {{city}}{{/city}}{{#state}}, {{state}}{{/state}}
 
     > ##### {{#start_date}}{{start_date}}{{/start_date}}{{#end_date}} - {{end_date}}{{/end_date}}
+
+    {{#technologies}} _Key Technologies:_ {{technologies}} {{/technologies}}
+
 {{#points}}
 
     * {{.}}
 {{/points}}
+
 {{/positions}}
 {{/history}}
 
