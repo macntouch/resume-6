@@ -146,11 +146,11 @@
         "jargon": [
             "amd", "api", "bower", "brunch", "esri", "flask", "gdal",
             "heroku", "git", "leaflet", "linux", "mysql", "nginx", "node",
-            "ogr", "opensource", "postgresql", "sqlite", "pyramid", "cloudhosting", "restful", "saas",
-            "java", "spatial", "csharp", "python", "pyramid", "wsgi", "ruby", "arduino",
-            "reprap", "json", "jquery", "xml",  "rvm", "virtualenv", "tilestache", "apache",
+            "ogr", "opensource", "postgresql", "sqlite", "django", "cloudhosting", "restful", "saas",
+            "spatial", "csharp", "python", "pyramid", "wsgi", "arduino",
+            "mavlink", "reprap", "json", "jquery", "xml",  "rvm", "virtualenv", "tilestache", "apache",
             "mbtiles", "mustache", "drone", "vim", "markdown", "css3", "html5",
-            "3dprinting", "javascript"
+            "javascript", "cordova", "apm"
         ]
     }
 }
