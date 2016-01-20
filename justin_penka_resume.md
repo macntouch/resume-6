@@ -73,7 +73,7 @@ Accomplished senior software developer with experience leading teams, building s
 
 * __Lead Developer__ | Spatial Data Research, Lawrence, KS
 
-    > #### June 2012 - Current
+    > ##### June 2012 - Current
 
      _Key Technologies:_ python, git, shell, sqlite, javascript, openlayers, mapnik, django, tastypie, backbone, lucene, solr, capistrano, chef, postgis, sqlalchemy, pyparsing, ec2, tilecache, bootstrap, handlebars, csharp, dotspatial, wix 
 
@@ -121,7 +121,7 @@ Accomplished senior software developer with experience leading teams, building s
 **.. jargon ..**  
 ----------------
 
-    #3dprinting #amd #apache #api #arduino #bower #brunch #cloudhosting #csharp #css3 #drone #esri
-    #flask #gdal #git #heroku #html5 #java #javascript #jquery #json #leaflet #linux #markdown #mbtiles
-    #mustache #mysql #nginx #node #ogr #opensource #postgresql #pyramid #pyramid #python #reprap
-    #restful #ruby #rvm #saas #spatial #sqlite #tilestache #vim #virtualenv #wsgi #xml 
+    #amd #apache #api #apm #arduino #bower #brunch #cloudhosting #cordova #csharp #css3 #django #drone
+    #esri #flask #gdal #git #heroku #html5 #javascript #jquery #json #leaflet #linux #markdown #mavlink
+    #mbtiles #mustache #mysql #nginx #node #ogr #opensource #postgresql #pyramid #python #reprap
+    #restful #rvm #saas #spatial #sqlite #tilestache #vim #virtualenv #wsgi #xml 
